@@ -1,0 +1,162 @@
+body {
+  font-family: "Arial", sans-serif;
+  background-color: #f4f4f4;
+  color: #1c1c1c;
+  margin: 0;
+  padding: 0;
+}
+
+.card, .drivers .driver-card, .teams .team-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  text-align: center;
+  width: 250px;
+  height: 380px;
+  flex: 1 1 250px;
+  max-width: 300px;
+}
+.card img, .drivers .driver-card img, .teams .team-card img {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+  border-radius: 8px;
+}
+.card h3, .drivers .driver-card h3, .teams .team-card h3 {
+  margin-top: 30px;
+  font-size: 22px;
+  flex-grow: 1;
+}
+.card p, .drivers .driver-card p, .teams .team-card p {
+  margin-bottom: px;
+  font-size: 16px;
+}
+
+.btn {
+  background: #e10600;
+  color: #1c1c1c;
+  padding: 12px 24px;
+  text-decoration: none;
+  font-weight: bold;
+  border-radius: 5px;
+  transition: 0.3s ease;
+  display: inline-block;
+}
+.btn:hover {
+  background: rgb(174, 4.64, 0);
+}
+
+header {
+  background: #1c1c1c;
+  padding: 15px 30px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+}
+header .logo {
+  color: #e10600;
+  font-size: 24px;
+  font-weight: bold;
+}
+header nav ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+}
+header nav ul li {
+  margin: 0 15px;
+}
+header nav ul li a {
+  color: #fff;
+  text-decoration: none;
+  font-weight: bold;
+  transition: 0.3s;
+}
+header nav ul li a:hover {
+  color: #ffcc00;
+}
+
+.hero {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  flex-direction: column;
+  text-align: center;
+  padding: 20px;
+  color: #1c1c1c;
+}
+.hero h1 {
+  font-size: 40px;
+  margin-bottom: 10px;
+}
+.hero p {
+  font-size: 18px;
+  margin-bottom: 20px;
+}
+
+.about {
+  padding: 50px 20px;
+  text-align: center;
+}
+.about h2 {
+  color: #e10600;
+}
+.about p {
+  font-size: 18px;
+  max-width: 600px;
+  margin: 20px auto;
+}
+
+.section, .teams, .drivers {
+  padding: 50px 20px;
+  text-align: center;
+}
+.section h2, .teams h2, .drivers h2 {
+  color: #1c1c1c;
+  margin-bottom: 30px;
+}
+.section p, .teams p, .drivers p {
+  font-size: 18px;
+  max-width: 600px;
+  margin: auto;
+}
+.section .container, .teams .container, .drivers .container {
+  display: flex;
+  justify-content: center;
+  align-items: stretch;
+  flex-wrap: wrap;
+  gap: 20px;
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+.drivers .driver-card {
+  background: #1c1c1c;
+  color: #fff;
+}
+.drivers .driver-card p {
+  color: #ccc;
+}
+
+.teams .team-card {
+  background-color: #fff;
+  color: #1c1c1c;
+}
+
+footer {
+  background: #1c1c1c;
+  color: #fff;
+  text-align: center;
+  padding: 20px;
+  margin-top: 30px;
+}
+
+/*# sourceMappingURL=main.css.map */
